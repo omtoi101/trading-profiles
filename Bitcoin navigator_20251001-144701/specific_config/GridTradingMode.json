@@ -1,0 +1,29 @@
+{
+    "allow_default_config": false,
+    "pair_settings": [
+        {
+            "allow_funds_redispatch": true,
+            "buy_funds": 0,
+            "buy_orders_count": 15,
+            "buy_volume_per_order": 0,
+            "compensate_for_missed_mirror_order": true,
+            "enable_trailing_down": false,
+            "enable_trailing_up": true,
+            "flat_increment": 500,
+            "flat_spread": 2000,
+            "ignore_exchange_fees": true,
+            "mirror_order_delay": 0,
+            "pair": "BTC/USDT",
+            "sell_funds": 0,
+            "sell_orders_count": 15,
+            "sell_volume_per_order": 0,
+            "starting_price": 0,
+            "use_existing_orders_only": false
+        }
+    ],
+    "required_candles_count": 1,
+    "required_strategies": [],
+    "required_time_frames": [
+        "1h"
+    ]
+}

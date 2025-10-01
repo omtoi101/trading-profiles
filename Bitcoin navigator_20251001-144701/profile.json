@@ -1,0 +1,54 @@
+{
+    "config": {
+        "crypto-currencies": {
+            "Bitcoin": {
+                "enabled": true,
+                "pairs": [
+                    "BTC/USDT"
+                ]
+            }
+        },
+        "exchanges": {
+            "kucoin": {
+                "enabled": true,
+                "exchange-type": "spot"
+            }
+        },
+        "trader": {
+            "enabled": false,
+            "load-trade-history": true
+        },
+        "trader-simulator": {
+            "enabled": true,
+            "fees": {
+                "maker": 0.1,
+                "taker": 0.1
+            },
+            "starting-portfolio": {
+                "BTC": 0.034,
+                "USDT": 1000
+            }
+        },
+        "trading": {
+            "reference-market": "USDT",
+            "risk": 0.5
+        }
+    },
+    "profile": {
+        "auto_update": false,
+        "avatar": "grid-btc-strategy.jpg",
+        "complexity": 2,
+        "description": "Benefit from Bitcoin's price movements.",
+        "extra_backtesting_time_frames": [
+            "15m"
+        ],
+        "id": "e315e0ae401646519e8d1db581ab99f6",
+        "imported": true,
+        "name": "Bitcoin navigator",
+        "origin_url": "https://www.octobot.cloud/strategies/bitcoin-navigator",
+        "read_only": true,
+        "risk": 1,
+        "slug": "bitcoin-navigator",
+        "type": "live"
+    }
+}

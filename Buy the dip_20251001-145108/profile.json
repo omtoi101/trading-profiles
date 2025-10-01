@@ -1,0 +1,54 @@
+{
+    "config": {
+        "crypto-currencies": {
+            "Bitcoin": {
+                "enabled": true,
+                "pairs": [
+                    "BTC/USDC"
+                ]
+            }
+        },
+        "exchanges": {
+            "binance": {
+                "enabled": true,
+                "exchange-type": "spot"
+            }
+        },
+        "trader": {
+            "enabled": false,
+            "load-trade-history": true
+        },
+        "trader-simulator": {
+            "enabled": true,
+            "fees": {
+                "maker": 0.1,
+                "taker": 0.1
+            },
+            "starting-portfolio": {
+                "BTC": 0.006,
+                "USDC": 1000
+            }
+        },
+        "trading": {
+            "reference-market": "USDC",
+            "risk": 0.5
+        }
+    },
+    "profile": {
+        "auto_update": false,
+        "avatar": "grid-btc-strategy.jpg",
+        "complexity": 2,
+        "description": "Benefit from Bitcoin's price movements.",
+        "extra_backtesting_time_frames": [
+            "15m"
+        ],
+        "id": "969f5b071a5a4af28509aa54c8d085f8",
+        "imported": true,
+        "name": "Buy the dip",
+        "origin_url": "https://www.octobot.cloud/strategies/buy-the-dip-usdc",
+        "read_only": true,
+        "risk": 1,
+        "slug": "buy-the-dip-usdc",
+        "type": "live"
+    }
+}
